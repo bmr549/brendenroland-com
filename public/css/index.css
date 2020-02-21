@@ -1,0 +1,73 @@
+.bg-image {
+    background-image: url("/res/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-header {
+    padding-bottom: 0.5cm;
+}
+
+.devicons {
+    font-size: 500%;
+}
+
+a:hover, a:active {
+    color: #3470d1;
+}
+
+a:link.devicons, a:visited.devicons {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover.devicons, a:active.devicons {
+    color: #3470d1;
+    text-decoration: none;
+}
+
+.image-header, .image-caption {
+    padding: 1cm;
+}
+
+a:link.download-link, a:link.download-link-secondary, a:visited.download-link, a:visited.download-link-secondary {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover.download-link, a:active.download-link {
+    color: #3470d1;
+    text-decoration: none;
+}
+
+a:hover.download-link-secondary, a:active.download-link-secondary {
+    color: #97b6e7;
+    text-decoration: none;
+}
+
+.image-caption {
+    padding-top: 1cm;
+    padding-bottom: 0cm;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: transparent;
+}
+
+header {
+    padding: 154px 0 100px;
+  }
+  
+  @media (min-width: 992px) {
+    header {
+      padding: 156px 0 100px;
+    }
+  }
+  
+  section {
+    padding: 75px 0;
+  }
